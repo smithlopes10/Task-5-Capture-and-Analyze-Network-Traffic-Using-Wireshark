@@ -1,0 +1,26 @@
+No.     Time           Source                Destination           Protocol Length Info 
+1 0.000000000    192.168.*.*       160.191.28.140        NTP      90     NTP Version 4, client
+ 2 0.021914273    160.191.28.140        192.168.*.*       NTP      90     NTP Version 4, server
+ 3 0.121135225    192.168.*.*       192.168.*.*         DNS      70     Standard query 0x4c1f A google.com
+ 4 0.121379613    192.168.*.*       192.168.*.*         DNS      70     Standard query 0xaa11 AAAA google.com
+ 5 0.127516049    192.168.*.*         192.168.*.*       DNS      86     Standard query response 0x4c1f A google.com A 142.251.42.238
+ 6 0.*776921    192.168.*.*         192.168.*.*       DNS      98     Standard query response 0xaa11 AAAA google.com AAAA 2404:6800:4009:803::200e
+  7 0.134014517    192.168.*.*       142.251.42.238        ICMP     98     Echo (ping) request  id=0x0001, seq=1/256, ttl=64 (reply in 8)
+8 0.143480357    142.251.42.238        192.168.*.*       ICMP     98     Echo (ping) reply    id=0x0001, seq=1/256, ttl=128 (request in 7)
+9 0.145354651    192.168.*.*       192.168.*.*         DNS      87     Standard query 0x690c PTR 238.42.251.142.in-addr.arpa
+10 0.152156429    192.168.*.*         192.168.*.*       DNS      157    Standard query response 0x690c PTR 238.42.251.142.in-addr.arpa PTR pnbomb-aw-in-f14.1e100.net PTR tsa01s11-in-f14.1e100.net
+11 0.949411415    VMware_c0:00:08       Broadcast             ARP      60     Who has 192.168.*.*? Tell 192.168.*.1
+12 1.134373054    192.168.*.*       142.251.42.238        ICMP     98     Echo (ping) request  id=0x0001, seq=2/512, ttl=64 (reply in 13)
+13 1.146390770    142.251.42.238        192.168.*.*       ICMP     98     Echo (ping) reply    id=0x0001, seq=2/512, ttl=128 (request in 12)
+14 2.015837968    VMware_c0:00:08       Broadcast             ARP      60     Who has 192.168.*.*? Tell 192.168.*.1
+15 2.136463121    192.168.*.*       142.251.42.238        ICMP     98     Echo (ping) request  id=0x0001, seq=3/768, ttl=64 (reply in 16)
+ 16 2.14*6541    142.251.42.238        192.168.*.*       ICMP     98     Echo (ping) reply    id=0x0001, seq=3/768, ttl=128 (request in 15)
+17 2.927278770    VMware_c0:00:08       Broadcast             ARP      60     Who has 192.168.*.*? Tell 192.168.*.1
+ 18 3.137587190    192.168.*.*       142.251.42.238        ICMP     98     Echo (ping) request  id=0x0001, seq=4/1024, ttl=64 (reply in 19)
+ 19 3.148591411    142.251.42.238        192.168.*.*       ICMP     98     Echo (ping) reply    id=0x0001, seq=4/1024, ttl=128 (request in 18)
+ 20 3.921476275    VMware_c0:00:08       Broadcast             ARP      60     Who has 192.168.*.*? Tell 192.168.*.1
+21 9.527063174    VMware_c0:00:08       Broadcast             ARP      60     Who has 192.168.*.*? Tell 192.168.*.1
+ 22 10.397778325   VMware_c0:00:08       Broadcast             ARP      60     Who has 192.168.*.*? Tell 192.168.*.1
+3 11.400035264   VMware_c0:00:08       Broadcast             ARP      60     Who has 192.168.*.*? Tell 192.168.*.1
+ 24 12.541741819   VMware_c0:00:08       Broadcast             ARP      60     Who has 192.168.*.*? Tell 192.168.*.1
+
